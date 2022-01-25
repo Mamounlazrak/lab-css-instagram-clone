@@ -8,3 +8,39 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 850px; 
+  margin: 150px auto;
+
+}
+.main-block-one {
+  width: 300 px;
+  height: 1000px;
+}
+.main-block-two {
+  width: 450px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.secondary-block-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondary-block-two {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.secondary-block-two h2 {
+  color: #06365f;
+  width: 55%;
+}
+.secondary-block-two p {
+
+}
